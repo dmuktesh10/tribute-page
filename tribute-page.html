@@ -9,21 +9,78 @@
       display: block;
       height: auto;
     }
+    #title{
+      background-color: #171e2e;
+      color:white;
+      text-align: center;
+
+    }
+    #main-heading{
+
+    }
+    #main-heading-info{
+      font-weight: bold;
+    }
+    #img-caption{
+      text-align: center;
+      font-weight: bold;
+    }
+    #time-line{
+      text-align: center;
+      background-color: #24292e;
+      color: white;
+    }
+    #timeline-points{
+      align: center;
+      text-align: left;
+    }
+    #grid-container{
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+    }
+    #tribute-info h4{
+     font-style: italic;
+    }
+    #tribute-info{
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
   <div id='main'>
     <div id='title'>
-      TITLE CONTENT
+      <h1 id='main-heading'>SACHIN TENDULKAR</h1>
+      <p id='main-heading-info'>The God of Cricket.</p>
     </div>
     <div id='img-div'>
       <img id='image' src='http://media1.santabanta.com/full5/Cricket/Sachin%20Tendulkar/sachin-tendulkar-77a.jpg'>
       <p id='img-caption'>Sachin Tendulkar: Worldcup winning moment.</p>
     </div>
-    MAIN CONTENT
-    <p id='tribute-info'>TRIBUTE INFO</p>
-    <a id='tribute-link'target="_blank" href="https://en.wikipedia.org/wiki/Sachin_Tendulkar">Sachin's Wiki</a>
+    <div id='time-line'>
+      <h3>Here is the timeline of Sachin Tendulkar.</h3>
+      <div id='grid-container'>
+        <div></div>
+        <div id='timeline-points'>
+            <p><b>1973:</b>Born in Mumbai</p>
+            <p><b>1989:</b>Made his test debut against the pakistan at the age of 16.</p>
+            <p><b>1994:</b>Sachin awarded with Arjun Award.</p>
+            <p><b>1996:</b>Sachin beacame the captain of Indian cricket team.</p>
+            <p><b>1997:</b>Government of India awarded Sachin 'Rajiv Gandhi Khel Ratna Purskar.</p>
+            <p><b>1999:</b>He was awarded with prestigious Padma Shri award.</p>
+            <p><b>2011:</b>The dream of winning wold cup for India became reality for which Sachin was waiting for long.</p>
+            <p><b>2012:</b>Sachin retired from ODI cricket.</p>
+            <p><b>2013:</b>Sachin took his retirment from all form of cricket.</p>
+            <p><b>2014:</b>He was awarded with Bharat Ratna award.The highest award for indian.</p>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div id=tribute-info>
+        <h4>There are two kinds of batsman in the  world; one is Sachin and rest are others. - Andy Fower</h4>
+        <p>If you have time, you should read more about this incredible human being on his<a id='tribute-link'target="_blank" href="https://en.wikipedia.org/wiki/Sachin_Tendulkar">Wikipedia entry</a>.</p>
+    </div>
+    
   </div>
 
 </body>
